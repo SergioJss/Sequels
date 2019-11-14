@@ -1,0 +1,19 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "Server for MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Silva Salas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
